@@ -1,0 +1,9 @@
+<header [class.hidden]="!isVisible">
+    <div>
+      <section>
+        <p *ngIf="!userName">funciona correctamente el header.</p>
+        <p *ngIf="userName">Bienvenido, {{ userName }}</p>
+      </section>
+      <app-button-loggin (nameSubmitted)="updateUserName($event)"></app-button-loggin>
+    </div>
+  </header>
