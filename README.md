@@ -1,59 +1,62 @@
-# AngularDemo
+# Angular Demo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+Este es un proyecto de demostración desarrollado con Angular version 19.1.8. Incluye una interfaz con autenticación básica y componentes reutilizables.
 
-## Development server
+## 📌 Características
 
-To start a local development server, run:
+- 🌐 Interfaz construida con Angular
+- 🔑 Autenticación básica con formulario de login
+- 🎨 Estilos personalizados con CSS
+- 📁 Organización modular del código
 
+## 🚀 Instalación y ejecución
+
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/LeiderSantiagoCortes/angular-demo.git
+cd angular-demo
+```
+
+### 2️⃣ Instalar dependencias
+```bash
+npm install
+```
+
+### 3️⃣ Ejecutar el proyecto
 ```bash
 ng serve
 ```
+Accede a la aplicación en [http://localhost:4200](http://localhost:4200)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+## 📂 Estructura del proyecto
+```
+angular-demo/
+├── src/
+│   ├── app/
+│   │   ├── components/   # Componentes reutilizables
+│   │   ├── services/     # Servicios para gestión de datos
+│   │   ├── app.module.ts # Módulo principal
+│   │   ├── app.component.ts # Componente raíz
+│   ├── assets/           # Recursos estáticos (imágenes, estilos)
+│   ├── environments/     # Configuraciones de entorno
+├── angular.json          # Configuración de Angular
+├── package.json          # Dependencias y scripts
+└── README.md             # Documentación
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠 Tecnologías utilizadas
+- **Angular** (Framework frontend)
+- **TypeScript** (Lenguaje de programación)
+- **CSS** (Estilos personalizados)
+- **Node.js & npm** (Gestor de paquetes y servidor de desarrollo)
 
-```bash
-ng generate --help
-```
+## 🏗 Próximas mejoras
+- 🔄 Implementación de autenticación con Firebase o JWT
+- 📊 Integración con una API para datos dinámicos
+- 🎨 Mejora en los estilos y responsividad
 
-## Building
+## 📝 Contribución
+Si deseas contribuir, siéntete libre de hacer un fork del repositorio, crear una nueva rama y hacer un pull request con tus mejoras.
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📄 Licencia
+Este proyecto está bajo la licencia MIT. ¡Úsalo como quieras! 🎉
