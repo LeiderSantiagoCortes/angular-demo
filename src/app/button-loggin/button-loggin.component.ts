@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   templateUrl: './button-loggin.component.html',
   styleUrls: ['./button-loggin.component.css'],
-  imports: [FormsModule, CommonModule]
+  imports: [FormsModule, CommonModule],
 })
 export class ButtonLogginComponent {
   @Output() nameSubmitted = new EventEmitter<string>();
